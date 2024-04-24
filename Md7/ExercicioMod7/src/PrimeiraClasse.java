@@ -10,15 +10,17 @@ public class PrimeiraClasse {
 
     */
 
-    Carro carro = new Carro();
+        String nome = "Lucilene";
 
-    carro.setMarca("Honda");
+        Carro carro = new Carro();
 
-    carro.setNome("Civic");
+        carro.setMarca("Fiat");
 
-    carro.setCodigo(300);
+        carro.setNome("Uno");
 
-        System.out.println("Olá, Marcos");
+        carro.setCodigo(400);
+
+        System.out.println("Olá, " + nome);
         System.out.println("O código do veículo é " + carro.getCodigo());
         System.out.println("Seu carro é da marca " + carro.getMarca());
         System.out.println("O modelo é o " + carro.getNome());
